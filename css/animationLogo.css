@@ -1,0 +1,12 @@
+@keyframes gitcat {
+    50% {filter:invert(50%);}
+    100% {transform:rotate(720deg); transform-origin: center;}
+}
+
+div:hover {
+    width: 200px;
+    height: 200px;
+    animation-name: gitcat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
